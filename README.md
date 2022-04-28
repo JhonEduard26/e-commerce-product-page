@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/JhonEduard26/ecommerce-product-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -63,6 +63,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Jhon Eduard Bocanegra](https://github.com/JhonEduard26)
+- Frontend Mentor - [@JhonEduard26](https://www.frontendmentor.io/profile/JhonEduard26)
+- Twitter - [@JhonBocanegra26](https://twitter.com/JhonBocanegra26)

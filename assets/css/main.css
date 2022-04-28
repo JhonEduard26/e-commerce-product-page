@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --primary-color: hsl(26, 100%, 55%);
+  --primary-color-light: hsl(25, 100%, 94%);
+  --very-vark-blue: hsl(220, 13%, 13%);
+  --dark-grayish-blue: hsl(219, 9%, 45%);
+  --grayish-blue: hsl(220, 14%, 75%);
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsla(0, 0%, 0%, 75%);
+
+  /* Typography */
+  --font-size: 1rem;
+  --body-font: 'Kumbh Sans', sans-serif;
+  --font-medium: 400;
+  --font-bold: 700;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
