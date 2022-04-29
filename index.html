@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,5 +14,98 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Ecommerce product page</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="menu-container--left">
+        <img class="menu-img" src="./assets/img/icon-menu.svg" alt="menu" />
+        <img class="logo" src="./assets/img/logo.svg" alt="logo" />
+      </div>
+      <div class="menu-container--right">
+        <figure class="cart-img-container">
+          <div class="cart-number">1</div>
+          <img class="cart-img" src="./assets/img/icon-cart.svg" alt="cart" />
+          <div class="cart-container hidden">
+            <h3 class="cart-title">Cart</h3>
+            <div class="product-content">
+              <div class="product-item">
+                <figure>
+                  <img
+                    class="product-img"
+                    src="./assets/img/image-product-1-thumbnail.jpg"
+                    alt="product image"
+                  />
+                </figure>
+                <div class="product-details">
+                  <p class="product-name">Autumn Limited Edition</p>
+                  <p class="product-price">$ 125.00</p>
+                </div>
+                <figure>
+                  <img src="./assets/img/icon-delete.svg" alt="delete" class="delete" />
+                </figure>
+              </div>
+            </div>
+            <a href="#" class="button">Checkout</a>
+          </div>
+        </figure>
+        <figure>
+          <img class="profile" src="./assets/img/image-avatar.png" alt="profile" />
+        </figure>
+      </div>
+      <div class="nav-container">
+        <nav class="menu">
+          <figure>
+            <img class="close" src="./assets/img/icon-close.svg" alt="close" />
+          </figure>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#">Collections</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Men</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Women</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="product-gallery__container">
+        <div class="product-gallery__content">
+          <figure>
+            <img class="product-image" src="./assets/img/image-product-1.jpg" alt="product" />
+          </figure>
+        </div>
+        <div class="icon-arrow__container">
+          <figure class="icon-arrow__content">
+            <img class="previous" src="./assets/img/icon-previous.svg" alt="" />
+          </figure>
+          <figure class="icon-arrow__content">
+            <img class="next" src="./assets/img/icon-next.svg" alt="" />
+          </figure>
+        </div>
+      </section>
+      <section class="product-section">
+        <span class="product-brand">Sneaker company</span>
+        <h2 class="product-title">Fall Limited Edition Sneakers</h2>
+        <p class="product-description">
+          These low-profile sneakers are your perfect casual wear comparison. Featuring a durable
+          rubber outer sole, they'll withstand everything the wheater can offer.
+        </p>
+        <div class="product-costs">
+          <span class="product-price--after">$125.00</span>
+          <span class="product-discount">50%</span>
+          <span class="product-price--before">$250.00</span>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
