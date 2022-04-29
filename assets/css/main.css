@@ -54,7 +54,9 @@ header {
 .delete,
 .close,
 .previous,
-.next {
+.next,
+.minus,
+.plus {
   cursor: pointer;
 }
 .logo {
@@ -125,7 +127,7 @@ header {
   justify-content: center;
   align-items: center;
   transition: 0.2s;
-  width: 260px;
+  width: 240px;
   height: 40px;
   margin: 0 auto;
   border-radius: 6px;
@@ -205,6 +207,7 @@ header {
 .product-section {
   width: 100%;
   padding: 12px 24px;
+  margin-bottom: var(--mb-3-2);
 }
 .product-brand {
   display: inline-block;
@@ -230,11 +233,7 @@ header {
   place-items: center;
   column-gap: 12px;
   width: 100%;
-}
-.product-costs div {
-  display: flex;
-  align-items: center;
-  column-gap: 12px;
+  margin-bottom: var(--mb-1-6);
 }
 .product-price--after {
   font-weight: var(--font-bold);
@@ -253,4 +252,31 @@ header {
   text-decoration: line-through;
   font-size: 0.75rem;
   color: var(--dark-grayish-blue);
+}
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-bottom: var(--mb-1-6);
+  padding: 8px;
+  background-color: var(--light-grayish-blue);
+}
+.minus,
+.plus {
+  border: 0;
+  background: transparent;
+}
+.minus {
+  align-self: baseline;
+}
+.add-to-cart {
+  column-gap: 8px;
+  width: 100%;
+  font-size: 0.75rem;
+  box-shadow: 0px 14px 24px -8px hsla(26, 100%, 55%, 75%);
+}
+.add-to-cart__img path {
+  fill: #fff;
 }
