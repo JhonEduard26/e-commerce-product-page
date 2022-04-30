@@ -26,7 +26,10 @@
           <img class="cart-img" src="./assets/img/icon-cart.svg" alt="cart" />
           <div class="cart-container hidden">
             <h3 class="cart-title">Cart</h3>
-            <div class="product-content">
+            <div class="cart-warning__container">
+              <p class="cart-warning">Your cart is empty</p>
+            </div>
+            <div class="product-content hidden">
               <div class="product-item">
                 <figure>
                   <img
@@ -35,16 +38,17 @@
                     alt="product image"
                   />
                 </figure>
-                <div class="product-details">
+                <div>
                   <p class="product-name">Autumn Limited Edition</p>
-                  <p class="product-price">$ 125.00</p>
+                  <span class="product-price"></span>
+                  <span class="product-price--final"></span>
                 </div>
                 <figure>
-                  <img src="./assets/img/icon-delete.svg" alt="delete" class="delete" />
+                  <img class="delete" src="./assets/img/icon-delete.svg" alt="delete" />
                 </figure>
               </div>
             </div>
-            <a href="#" class="button">Checkout</a>
+            <a href="#" class="button checkout hidden">Checkout</a>
           </div>
         </figure>
         <figure>
@@ -79,8 +83,11 @@
     <main>
       <section class="product-gallery__container">
         <div class="product-gallery__content">
-          <figure>
+          <figure class="product-gallery__slider">
             <img class="product-image" src="./assets/img/image-product-1.jpg" alt="product" />
+            <img class="product-image" src="./assets/img/image-product-2.jpg" alt="product" />
+            <img class="product-image" src="./assets/img/image-product-3.jpg" alt="product" />
+            <img class="product-image" src="./assets/img/image-product-4.jpg" alt="product" />
           </figure>
         </div>
         <div class="icon-arrow__container">
