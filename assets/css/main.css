@@ -169,6 +169,9 @@ header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.menu-desktop {
+  display: none;
+}
 .active-menu {
   left: 0;
 }

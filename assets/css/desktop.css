@@ -1,0 +1,38 @@
+header {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 90px;
+}
+.menu-img {
+  display: none;
+}
+.nav-container {
+  display: none;
+}
+.menu-desktop {
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+  width: 60%;
+  height: 98%;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+}
+.menu__item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 24px;
+  margin-bottom: 0;
+  color: var(--dark-grayish-blue);
+}
+.menu__item:hover {
+  border-bottom: 4px solid var(--primary-color);
+}
+.profile {
+  margin-left: 48px;
+}
