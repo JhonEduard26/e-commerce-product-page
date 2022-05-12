@@ -85,10 +85,37 @@
       <section class="product-gallery__container">
         <div class="product-gallery__content">
           <figure class="product-gallery__slider">
-            <img class="product-image" src="./assets/img/image-product-1.jpg" alt="product" />
-            <img class="product-image" src="./assets/img/image-product-2.jpg" alt="product" />
-            <img class="product-image" src="./assets/img/image-product-3.jpg" alt="product" />
-            <img class="product-image" src="./assets/img/image-product-4.jpg" alt="product" />
+            <img
+              class="product-image product-big"
+              src="./assets/img/image-product-1.jpg"
+              alt="product"
+              onclick="openLightBox()"
+            />
+            <!---->
+            <img
+              class="product-image product--active"
+              src="./assets/img/image-product-1.jpg"
+              alt="product"
+              onclick="setOpacity(event)"
+            />
+            <img
+              class="product-image"
+              src="./assets/img/image-product-2.jpg"
+              alt="product"
+              onclick="setOpacity(event)"
+            />
+            <img
+              class="product-image"
+              src="./assets/img/image-product-3.jpg"
+              alt="product"
+              onclick="setOpacity(event)"
+            />
+            <img
+              class="product-image"
+              src="./assets/img/image-product-4.jpg"
+              alt="product"
+              onclick="setOpacity(event)"
+            />
           </figure>
         </div>
         <div class="icon-arrow__container">

@@ -205,6 +205,9 @@ header {
 .product-image {
   width: 100%;
 }
+.product--active {
+  display: none;
+}
 .icon-arrow__container {
   position: absolute;
   top: 40%;
@@ -225,7 +228,6 @@ header {
 .previous,
 .next {
   width: 36%;
-  height: 52%;
 }
 .product-section {
   width: 100%;

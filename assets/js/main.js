@@ -109,3 +109,16 @@ const handleNext = () => {
 
 previous.addEventListener('click', handlePrevious)
 next.addEventListener('click', handleNext)
+
+/* Desktop imgs */
+const productBig = document.querySelector('.product-big')
+const productImages = document.querySelectorAll('.product-image')
+
+const setOpacity = (event) => {
+  productImages.forEach((img) => {
+    img.classList.remove('product--active')
+  })
+  productBig.src = event.target.src
+  const img = event.target
+  img.classList.add('product--active')
+}

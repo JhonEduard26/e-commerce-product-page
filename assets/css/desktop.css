@@ -55,7 +55,6 @@ main {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
   width: 72%;
   height: calc(100vh - 72px);
   margin: 0 auto;
@@ -75,7 +74,10 @@ main {
 .product-image {
   border-radius: 6px;
 }
-.product-image:first-child {
+.product-image:hover {
+  cursor: pointer;
+}
+.product-big {
   grid-column: 1 / 5;
   border-radius: 12px;
 }
@@ -90,5 +92,10 @@ main {
   gap: 12px;
 }
 .product-buttons {
-  width: 72%;
+  width: 66%;
+}
+.product--active {
+  display: block;
+  opacity: 0.2;
+  outline: auto var(--primary-color);
 }
